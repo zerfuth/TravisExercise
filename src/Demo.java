@@ -7,6 +7,8 @@ public class Demo {
     int selectedStrat = Integer.parseInt(argv[0]);
     float amt = Float.parseFloat(argv[1]);
 
+    mistake in the code
+    
     switch(selectedStrat) {
     case 1:
       strategy = new PercentDiscountStrategy(amt);
